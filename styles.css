@@ -155,6 +155,8 @@ body {
 
 .projects-link{
     text-decoration: none;
+    color: #2d3436;
+    font-weight: bold;
 }
 
 .projects-link:hover {
@@ -200,6 +202,11 @@ body {
 }
 
 /* Carousel Section*/
+
+.carousel-section{
+    margin: 2rem;
+}
+
 .carousel {
     display: flex;
     margin: 0 auto;
@@ -208,7 +215,7 @@ body {
     scroll-behavior: smooth;
     gap: 1.5rem;
     padding: 1rem;
-    max-width: 50%;
+    max-width: 90rem;
 }
 
 .carousel::-webkit-scrollbar {
