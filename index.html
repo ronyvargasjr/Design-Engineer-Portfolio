@@ -22,6 +22,7 @@
                     <ul class="nav-links">
                         <li><a class="nav-btn" href="#about">About</a></li>
                         <li><a class="nav-btn" href="#projects">Projects</a></li>
+                        <li><a class="nav-btn" href="#carousel-link">Designs</a></li>
                         <li><a class="nav-btn" href="#skills">Skills</a></li>
                         <li><a class="nav-btn" href="#contact">Contact</a></li>
                     </ul>
@@ -52,30 +53,88 @@
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Backflow Prevention</h3>
+                    <h3>Backflow at West 103rd St.</h3>
                     <p>Design includes determining cross-connection hazards, choosing appropriate device types, pipe sizing, and tapping to existing connections.</p>
-                    <a href="#carousel-link" class="projects-link">See more</a>
+                    <a href="#proj1" class="projects-link">Project Details</a>
+                    <a href="#proj1">
+                        <img src="/images/Portfolio Pg2.png" class="thumb">
+                    </a>
                     <div class="tech-stack"></div>
                 </div>
                 <div class="project-card">
-                    <h3>Fire Sprinkler</h3>
+                    <h3>Fire Sprinkler at 25-40 31st St.</h3>
                     <p>Design includes gathering building information, determining design criteria, sprinkler head layout, pipe sizing, and performing hydraulic calculations.</p>
-                    <a href="#carousel-link" class="projects-link">See more</a>
+                    <a href="#proj2" class="projects-link">Project Details</a>
+                    <a href="#proj2">
+                        <img src="/images/Portfolio Pg5.png" class="thumb">
+                    </a>
                     <div class="tech-stack"></div>
                 </div>
                 <div class="project-card">
-                    <h3>HVAC</h3>
+                    <h3>HVAC at 225 West 83rd St.</h3>
                     <p>Design includes gathering building information, performing heating/cooling loads, determing system type, and equipment selection.</p>
-                    <a href="#carousel-link" class="projects-link">See more</a>
+                    <a href="#proj3" class="projects-link">Project Details</a>
+                    <a href="#proj3">
+                        <img src="/images/Portfolio Pg7.png" class="thumb">
+                    </a>
                     <div class="tech-stack"></div>
                 </div>
             </div>
 
+            <div>
+
+
+                <!-- Fullscreen modal version -->
+                <div id="proj1" class="modal">
+                    <a href="#projects" class="close">×</a>
+                    <img src="/images/Portfolio Pg2.png">
+                </div>
+                <div id="proj2" class="modal">
+                    <a href="#projects" class="close">×</a>
+                    <img src="/images/Portfolio Pg5.png">
+                </div>
+                <div id="proj3" class="modal">
+                    <a href="#projects" class="close">×</a>
+                    <img src="/images/Portfolio Pg7.png">
+                </div>
+
+            </div>
 
         </div>
     </section>
 
-    <!-- Skills Section -->
+
+
+    
+
+
+<section id="carousel-link" class="carousel-section">
+    <h2 class="section-title">Design Showcase</h2>
+    <div class="carousel">
+        <div class="carousel-item">
+            <p><img src="./images/2-03 Borden Avenue/BFP1-Plot.png" alt=""></p>
+        </div>
+        <div class="carousel-item">
+            <p><img src="./images/2-03 Borden Avenue/BFP6-Floors.png" alt=""></p>
+        </div>
+        <div class="carousel-item">
+            <p><img src="./images/2-03 Borden Avenue/BFP7-Riser.png" alt=""></p>
+        </div>
+        <div class="carousel-item">
+            <p><img src="./images/143-45 229th Street/SP-Plans1-Riser.png" alt=""></p>
+        </div>
+        <div class="carousel-item">
+            <p><img src="./images/143-45 229th Street//SP-Plans3-Floors.png" alt=""></p>
+        </div>
+        <div class="carousel-item">
+            <p><img src="./images/225 West 83rd Street Apt 21LMZ/HVAC-FloorTop.png" alt=""></p>
+        </div>
+        <div class="carousel-item">
+            <p><img src="./images/225 West 83rd Street Apt 21LMZ/HVAC-FloorBottom.png" alt=""></p>
+        </div>
+    </div>
+
+        <!-- Skills Section -->
     <section id="skills" class="section">
         <div class="container">
             <h2 class="section-title">Skills</h2>
@@ -114,32 +173,6 @@
         </div>
     </section>
 
-<section id="carousel-link" class="carousel-section">
-    <h2 class="section-title">Featured Projects</h2>
-    <div class="carousel">
-        <div class="carousel-item">
-            <p><img src="./images/2-03 Borden Avenue/BFP1-Plot.png" alt=""></p>
-        </div>
-        <div class="carousel-item">
-            <p><img src="./images/2-03 Borden Avenue/BFP6-Floors.png" alt=""></p>
-        </div>
-        <div class="carousel-item">
-            <p><img src="./images/2-03 Borden Avenue/BFP7-Riser.png" alt=""></p>
-        </div>
-        <div class="carousel-item">
-            <p><img src="./images/143-45 229th Street/SP-Plans1-Riser.png" alt=""></p>
-        </div>
-        <div class="carousel-item">
-            <p><img src="./images/143-45 229th Street//SP-Plans3-Floors.png" alt=""></p>
-        </div>
-        <div class="carousel-item">
-            <p><img src="./images/225 West 83rd Street Apt 21LMZ/HVAC-FloorTop.png" alt=""></p>
-        </div>
-        <div class="carousel-item">
-            <p><img src="./images/225 West 83rd Street Apt 21LMZ/HVAC-FloorBottom.png" alt=""></p>
-        </div>
-    </div>
-
 
 
     <!-- Contact Section -->
@@ -149,15 +182,20 @@
             <div class="contact-content">
                 <p>I'm always open to discussing new projects and opportunities.</p>
                 <div class="contact-links">
-                    <a href="mailto:your.email@example.com" class="contact-link">
+                    <a href="mailto:ronyvargasjr@gmail.com" class="contact-link">
                         <i class="fas fa-envelope"></i> Email
                     </a>
-                    <a href="https://linkedin.com/in/yourprofile" class="contact-link">
+                    <a href="https://www.linkedin.com/in/ronyvargasjr" class="contact-link" target="_blank">
                         <i class="fab fa-linkedin"></i> LinkedIn
                     </a>
-                    <a href="https://github.com/yourusername" class="contact-link">
-                        <i class="fab fa-github"></i> GitHub
+                    <a href="#resume" class="contact-link">
+                        <i class="fab fa-github"></i> Resume
                     </a>
+                    <!-- Full modal Resume -->
+                    <div id="resume" class="modal">
+                        <a href="#contact" class="close">×</a>
+                        <img src="/resume/Rony Vargas Jr Resume 2025.png">
+                    </div>
                 </div>
             </div>
         </div>
